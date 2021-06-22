@@ -1,0 +1,5 @@
+---
+collections:
+  - source: https://github.com/sc68cal/dellemc.os10.git
+    type: git
+    version: network_cli_transaction
