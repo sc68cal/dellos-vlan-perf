@@ -2,4 +2,5 @@
 - hosts: all
 
   roles:
+    - dellemc.os10.os10_interface
     - dellemc.os10.os10_vlan

@@ -2,6 +2,25 @@
 ansible_network_os: dellemc.os10.os10
 ansible_connection: network_cli
 
+os10_interface:
+  vlan 10: {}
+
+  vlan 20: {}
+
+  vlan 3: {}
+
+  vlan 3939: {}
+
+  vlan 4: {}
+
+  vlan 5: {}
+
+  vlan 6: {}
+
+  vlan 7: {}
+
+  vlan 9: {}
+
 os10_vlan:
   vlan 1:
     tagged_members:
